@@ -58,7 +58,7 @@ public class GatewayApplication {
             ObjectMapper om) {
 
 
-        doInSpan(tracer, "test");
+//        doInSpan(tracer, "test");
 
         return route()
                 .GET("/update", request -> {
